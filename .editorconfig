@@ -1,0 +1,24 @@
+# Reference: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+
+# Limit line length to 80
+max_line_length = 80
+
+# Default charset to UTF-8
+charset = utf-8
+
+# Indent by 2 spaces
+indent_size = 2
+indent_style = space
+
+# Trim trailing whitespace, except for Markdown
+[*]
+trim_trailing_whitespace = true
+[*.{md, mdx}]
+trim_trailing_whitespace = false

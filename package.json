@@ -1,0 +1,34 @@
+{
+  "name": "solid-template",
+  "version": "0.0.0",
+  "description": "Template for Solid.",
+  "license": "MIT",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts,.tsx",
+    "fix": "pnpm lint --fix",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@unocss/eslint-config": "^0.51.2",
+    "@unocss/preset-uno": "^0.51.2",
+    "@unocss/reset": "^0.51.2",
+    "@unocss/transformer-variant-group": "^0.51.2",
+    "@unocss/vite": "^0.51.2",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
