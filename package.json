@@ -1,0 +1,49 @@
+{
+  "name": "solid-template",
+  "version": "0.1.0",
+  "description": "Template for Solid SPA",
+  "homepage": "https://solid-template.atlanswer.com",
+  "license": "MIT",
+  "private": true,
+  "author": "Atlanswer <i@atlanswer.com> (https://atlanswer.com)",
+  "type": "module",
+  "repository": "github:atlanswer/solid-template",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint .",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "~4.1.7",
+    "@types/bun": "~1.2.14",
+    "eslint": "~9.27.0",
+    "eslint-config-prettier": "~10.1.5",
+    "eslint-config-turbo": "~2.5.3",
+    "eslint-plugin-solid": "~0.14.5",
+    "globals": "~16.2.0",
+    "prettier": "~3.5.3",
+    "prettier-plugin-tailwindcss": "~0.6.11",
+    "solid-devtools": "~0.34.0",
+    "solid-js": "~1.9.7",
+    "tailwindcss": "~4.1.7",
+    "turbo": "~2.5.3",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "~8.32.1",
+    "vite": "~6.3.5",
+    "vite-plugin-solid": "~2.11.6",
+    "vite-tsconfig-paths": "~5.1.4"
+  },
+  "engines": {
+    "bun": ">=1.2"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "bun"
+    },
+    "packageManager": {
+      "name": "bun",
+      "onFail": "warn"
+    }
+  }
+}

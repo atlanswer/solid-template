@@ -1,0 +1,19 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true,
+      "env": ["VITE_*", "DEV"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "env": ["NODE_ENV", "VITE_*"],
+      "outputs": ["dist/**"]
+    }
+  }
+}
