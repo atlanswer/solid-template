@@ -1,0 +1,26 @@
+# build
+dist
+.solid
+.output
+.vinxi
+.vercel
+.netlify
+netlify
+
+# environment
+.env
+.env*.local
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# system files
+.DS_Store
+Thumbs.db
