@@ -1,0 +1,6 @@
+{
+  "cSpell.words": ["solidjs"],
+  "eslint.experimental.useFlatConfig": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "eslint.useESLintClass": true
+}
