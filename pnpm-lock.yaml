@@ -42,7 +42,7 @@ devDependencies:
     version: 0.5.12(prettier@3.2.5)
   solid-devtools:
     specifier: ~0.29.3
-    version: 0.29.3(solid-js@1.8.15)(vite@5.1.5)
+    version: 0.29.3(solid-js@1.8.15)(vite@5.1.7)
   tailwindcss:
     specifier: ~3.4.1
     version: 3.4.1
@@ -50,11 +50,11 @@ devDependencies:
     specifier: ~5.4.2
     version: 5.4.2
   vite:
-    specifier: ~5.1.5
-    version: 5.1.5
+    specifier: ~5.1.7
+    version: 5.1.7
   vite-plugin-solid:
     specifier: ~2.10.1
-    version: 2.10.1(solid-js@1.8.15)(vite@5.1.5)
+    version: 2.10.1(solid-js@1.8.15)(vite@5.1.7)
 
 packages:
 
@@ -681,7 +681,6 @@ packages:
     resolution: {integrity: sha512-0bK9aG1kIg0Su7OcFTlexkVeNZ5IzEsnz1ept87a0TUgZ6HplSgkJAnFpEVRW7GRcikT4GlPV0pbtVedOaXHQQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -690,7 +689,6 @@ packages:
     resolution: {integrity: sha512-qB6AFRXuP8bdkBI4D7UPUbE7OQf7u5OL+R94JE42Z2Qjmyj74FtDdLGeriRyBDhm4rQSvqAGCGC01b8Fu2LthQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -699,7 +697,6 @@ packages:
     resolution: {integrity: sha512-sHig3LaGlpNgDj5o8uPEoGs98RII8HpNIqFtAI8/pYABO8i0nb1QzT0JDoXF/pxzqO+FkxvwkHZo9k0NJYDedg==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -708,7 +705,6 @@ packages:
     resolution: {integrity: sha512-nD3YcUv6jBJbBNFvSbp0IV66+ba/1teuBcu+fBBPZ33sidxitc6ErhON3JNavaH8HlswhWMC3s5rgZpM4MtPqQ==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -717,7 +713,6 @@ packages:
     resolution: {integrity: sha512-7/XVZqgBby2qp/cO0TQ8uJK+9xnSdJ9ct6gSDdEr4MfABrjTyrW6Bau7HQ73a2a5tPB7hno49A0y1jhWGDN9OQ==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -2932,7 +2927,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-devtools@0.29.3(solid-js@1.8.15)(vite@5.1.5):
+  /solid-devtools@0.29.3(solid-js@1.8.15)(vite@5.1.7):
     resolution: {integrity: sha512-9j3VxVbEoC54ML22gAMytR8ZS1nk9xKatsWziKSkI4c/Bcyh4sxQBGESHuXSLs9xaxpyGVTmFl3hknoxEpKzlA==}
     peerDependencies:
       solid-js: ^1.8.0
@@ -2950,7 +2945,7 @@ packages:
       '@solid-devtools/debugger': 0.23.3(solid-js@1.8.15)
       '@solid-devtools/shared': 0.13.1(solid-js@1.8.15)
       solid-js: 1.8.15
-      vite: 5.1.5
+      vite: 5.1.7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3195,7 +3190,7 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-solid@2.10.1(solid-js@1.8.15)(vite@5.1.5):
+  /vite-plugin-solid@2.10.1(solid-js@1.8.15)(vite@5.1.7):
     resolution: {integrity: sha512-kfVdNLWaJqaJVL52U6iCCKNW/nXE7bS1VVGOWPGllOkJfcNILymVSY0LCBLSnyy0iYnRtrXpiHm14rMuzeC7CA==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -3211,14 +3206,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.15
       solid-refresh: 0.6.3(solid-js@1.8.15)
-      vite: 5.1.5
-      vitefu: 0.2.5(vite@5.1.5)
+      vite: 5.1.7
+      vitefu: 0.2.5(vite@5.1.7)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.1.5:
-    resolution: {integrity: sha512-BdN1xh0Of/oQafhU+FvopafUp6WaYenLU/NFoL5WyJL++GxkNfieKzBhM24H3HVsPQrlAqB7iJYTHabzaRed5Q==}
+  /vite@5.1.7:
+    resolution: {integrity: sha512-sgnEEFTZYMui/sTlH1/XEnVNHMujOahPLGMxn1+5sIT45Xjng1Ec1K78jRP15dSmVgg5WBin9yO81j3o9OxofA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3252,7 +3247,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.1.5):
+  /vitefu@0.2.5(vite@5.1.7):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -3260,7 +3255,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.5
+      vite: 5.1.7
     dev: true
 
   /which@2.0.2:
